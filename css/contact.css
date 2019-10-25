@@ -1,0 +1,126 @@
+/*-----------------Contact Banner---------------*/
+#contact-banner{
+    background: url("../Images/1.jpg") no-repeat;
+    min-height: 300px;
+    background-size: 100%;
+}
+.title{
+    padding-top: 105px;
+    font-size: 5em;
+    text-align: center;
+    color: #00BFFF;
+}
+/*-----------------Cotact Form ---------------*/
+#f_name{
+    padding-top: 10px;
+}
+.form-container{
+    margin-top: 100px;
+    margin-left: 230px;
+    width: 45%;
+    height: 570px;
+    border: 2px solid #00BFFF;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 22px;
+}
+td{
+    padding: 5px;
+}
+form{
+    background-color: white;
+    width: 94%;
+    height: 96%;
+}
+input[type = "text"], input[type = "email"]
+{
+    border: none;
+    width: 100%;
+    height: 35px;
+    font-style: italic;
+    font-size: 1.07em;
+    background-color: #F5F5F5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ label{
+    font-size: 1.10em;
+}
+#msgError{
+    padding-top: 30px;
+    color: #00BFFF;
+    text-align: center;
+    font-size: 1.12em;
+    width: 400px;
+}
+input[type = "submit"]{
+    margin-top: 10px;
+    background-color: #00BFFF;
+    border: none;
+    width: 140px;
+    height: 35px;
+    color: white;
+    font-size: 1.01em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+textarea{
+    background-color: #F5F5F5;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 470px;
+}
+#message{
+    float: left;
+}
+@media screen and (max-width: 800px){
+        textarea{
+            max-width: 200px;
+        }
+        input{
+            width: 100%;
+        }
+}
+/*------------ Address Form ----------------------*/
+.s-media{
+    margin-top: -520px;
+    margin-right: 70px;
+    background-color: white;
+    float: right;
+    width: 22%;
+    height: 40%;
+    box-shadow: 4px 4px #00BFFF;
+}
+.s-media img{
+    height: 25px;
+    width: 25px;
+}
+.s-media p img{
+    padding-right: 10px;
+}
+.s-media p{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #00BFFF;
+    font-size: 17px;
+}
+#add_tittle{
+    color: #00BFFF;
+    font-size: 25px;
+}
+/*----------------- Icons --------------------*/
+.icons{
+    border-top: 3px solid #00BFFF;
+    height: 100px;
+    margin-top: 40px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+    padding-top: 25px;
+    padding-left: 3px;
+}
+.icons img:hover{
+    transform: rotate(12deg);
+}
+#ic_first{
+    padding-left: 32px;
+}

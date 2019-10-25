@@ -1,0 +1,89 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(60, 60, 60);
+}
+article{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 17%;
+}
+.articleContainer{
+    padding-top: 1%;
+    width: 80%;
+    background-color: white;
+}
+.articleContainer img{ 
+    width: 95%;
+    height: 60%;
+    margin-left: 20px;
+}
+.crypto_container p{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+div h1{
+    padding-top: 20px;
+    margin-left: 3%;
+    color: #00BFFF;
+    font-size: 2.0em;
+    font-style: italic;
+}
+.crypto_container h2{
+    padding-top: 10px;
+    margin-left: 3%;
+    color: #00BFFF;
+    font-size: 1.5em;
+}
+.crypto_container h3{
+    padding-top: 10px;
+    margin-left: 3%;
+    color: #00BFFF;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.crypto-form{
+    padding-top: 3%;
+    width: 64%;
+    height: auto;
+    margin-left: 17%;
+    background-color: white;
+}
+#crypto-comment{
+    margin-left: 7%;
+    padding-top: 2%;
+}
+#identity_comment{
+    margin-left: 7%;
+    padding-top: 2%;
+}
+.crypto-form textarea{
+    margin-left: 7%;
+    margin-top: 20px;
+    width: 80%;
+    height: 100px;
+    border: 1px solid lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.crypto-form input[type = 'text']{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7%;
+    width: 50%;
+    height: 35px;
+    border: 1px solid lightgray;
+    font-size: 1.1em;
+}
+.mButton button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    width: 12%;
+    margin-bottom: 10px;
+    background-color: #00BFFF;
+    border: none;
+    margin-left: 7%;
+    color: white;
+    font-size: 1.2em;
+    height: 35px;
+}

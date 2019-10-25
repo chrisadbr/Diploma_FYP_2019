@@ -1,0 +1,90 @@
+/*-------------Cover Page ----------------*/
+#aboutCover{
+    background: url('../Images/bg.jpg') no-repeat;
+    width: 100%;
+    min-height: 350px;
+}
+#aboutUsHeader{
+    padding-top: 10%;
+    padding-left: 35%;
+    font-size: 5em;
+    color: #00BFFF;
+}
+/*-------------About-Us Section ----------------*/
+.contain .row div{
+    margin: 0px auto;
+    width: 85%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ .contain div p{
+   padding: 4px;
+ }
+ .contain{
+     background-color: white;
+     width: 80%;
+     margin-left: 10%;
+ }
+ .col-left{
+    text-align: left;
+    border-right: 3px solid #00BFFF;
+ }
+ td h1{
+        color: #00BFFF;
+        font-size: 40px;
+ }
+ td p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 17px;
+ }
+ td .header{
+     font-size: 27px;
+     color: #00BFFF;
+ }
+table{
+    border-spacing: 40px;
+    width: 100%;
+    height: auto;
+}
+/*--------------Our team---------------*/
+.teamContainer{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.stmTeam{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: #00BFFF;
+}
+.stmTeam h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+.teamPic{
+    float: right;
+    width: 60%;
+}
+.teamPic h3{
+    text-align: center;
+    color: orange;
+}
+.teamPic p{
+    text-align: center;
+}
+.teamPic div{
+    float: left;
+    padding-top: 8%;
+    margin-right: 10%;
+}
+.teamPic img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

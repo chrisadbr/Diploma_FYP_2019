@@ -1,0 +1,92 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.topNav{
+    padding-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    top: 0;
+    width: 100%;
+    height: 70px;
+  }
+  .link{
+    margin-top: 22px;
+    float: right;
+    margin-right: 5px;
+}
+#p-title{
+    margin-top: 10px;
+    float: left;
+    font-size: 2em;
+    padding-left: 10px;
+}
+.topNav a{
+    padding-right: 13px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#active, #title{
+    color:#00BFFF;
+}
+.searchBanner{
+    background: url('../Images/stubcg.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 300px;
+}
+.searchContainer{
+    margin-top: 6%;
+    position: relative;
+    width: 70%;
+    background-color: white;
+    margin-left: 16%; 
+}
+.searchResults{
+    width: 98%;
+    height: 170px;
+    border-bottom: 3px solid #f2f2f2;
+    padding: 1%;
+}
+.topicResults{
+    width: 98%;
+    height: 60px;
+    border-bottom: 3px solid #f2f2f2;
+    margin-top: 75px;
+    margin-left: 2%;
+}
+.searchResults div a{    
+    margin-left: 1%;
+}
+.searchResults img{
+    margin-left: 2%;
+    margin-top: 30px;
+    float: left;
+}
+.searchResults a, .topicResults a{
+    text-decoration: none;
+    font-size: 1.12em;
+}
+.searchResults div a{
+    margin-top: 30px;
+    padding-bottom: 1%;
+    float: left;
+}
+.countResults{
+    font-size: 1.5em;
+    padding: 2%;
+    color: #00bfff;
+}
+.desc{
+    text-align: left;
+    float: left;
+    margin-top: 40px;
+    width: 80%;
+    font-size: 15px;
+    color: #302226;
+}

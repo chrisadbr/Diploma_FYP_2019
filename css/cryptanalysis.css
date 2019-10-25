@@ -1,0 +1,83 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.cryptanalysisContainer{
+    width: 80%;
+    background-color: white;
+}
+.cryptanalysisContainer img{ 
+    width: 95%;
+    height: 60%;
+    margin-left: 20px;
+}
+.cryp_article p{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+#cry_Comment{
+    margin-left: 7%;
+    padding-top: 2%;
+}
+#p1{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+div h1{
+    padding-top: 20px;
+    margin-left: 3%;
+    color: #00BFFF;
+    font-size: 2.0em;
+    font-style: italic;
+}
+.cryp_article h2{
+    padding-top: 10px;
+    margin-left: 3%;
+    color: #00BFFF;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.crypta_form{
+    padding-top: 3%;
+    width: 64%;
+    height: auto;
+    margin-left: 17%;
+    background-color: white;
+}
+.crypta_form textarea{
+    margin-left: 7%;
+    margin-top: 20px;
+    width: 80%;
+    height: 15%;
+    border: 1px solid lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.crypta_form input[type = 'text']{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7%;
+    width: 50%;
+    height: 6%;
+    border: 1px solid lightgray;
+}
+.cryptanalysis_button button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    width: 12%;
+    margin-bottom: 10px;
+    background-color: #00BFFF;
+    border: none;
+    margin-left: 7%;
+    color: white;
+    font-size: 1.2em;
+    height: 5%;
+}

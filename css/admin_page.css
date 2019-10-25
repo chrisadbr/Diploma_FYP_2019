@@ -1,0 +1,103 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+}
+button{
+    background-color: white;
+    border: none;
+    color: #00BFFF;
+    height: 37px;
+    width: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid #00BFFF;
+}
+#header{
+    color: #00BFFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+.top{
+    padding-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+  }
+  .link{
+    margin-top: 10px;
+    float: right;
+    margin-right: 5px;
+}
+#p-title{
+    margin-top: 10px;
+    float: left;
+    font-size: 2em;
+    padding-left: 10px;
+}
+.top a{
+    padding-right: 13px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#active, #title{
+    color:#00BFFF;
+}
+#admin_header{
+    float: right;
+    margin-right: 30px;
+}
+.container{
+    margin-top: 6%;
+    background-color: white;
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+}
+.rightItems{
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    top: 0;
+}
+.leftItems{
+    float: left;
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 2%;
+}
+.link .logBtn{
+    background-color: white;
+    color: #00BFFF;
+    border: 2px solid #00BFFF;
+    padding-bottom: 6px;
+    height: 30px;
+}
+#course_info{
+    margin-top: 4%;
+    width: 400px;
+    height: auto;
+    float: left;
+}
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 70px;
+    background-color: #00BFFF;
+}
+footer div{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 23px;
+}
+
